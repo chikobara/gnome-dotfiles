@@ -34,6 +34,23 @@ safe_copy() {
     fi
 }
 
+# Function to install GNOME extensions
+install_gnome_extensions() {
+    EXTENSIONS_FILE="$script_dir/gnome_extensions_list.txt"
+    if [ -f "$EXTENSIONS_FILE" ]; then
+        echo "Installing GNOME extensions..."
+        while IFS= read -r uuid; do
+            echo "Installing extension: $uuid"
+            gnome-extensions install "$uuid" || echo "Failed to install $uuid"
+        done < "$EXTENSIONS_FILE"
+        echo "GNOME extensions installation complete."
+    else
+        echo "GNOME extensions list not found, skipping."
+    fi
+}
+
+
+
 # Step 1: Restore Dotfiles
 if prompt_user "Do you want to restore dotfiles (zsh configs, Kitty config, Fastfetch conf)?"; then
     echo "Restoring dotfiles..."
@@ -61,17 +78,12 @@ else
 fi
 
 # Step 2: Restore GNOME Extensions
-if prompt_user "Do you want to restore GNOME extensions? (You'll need to manually install them from the extensions.gnome.org site.)"; then
-    EXTENSIONS_FILE="$script_dir/gnome_extensions_list.txt"
-    if [ -f "$EXTENSIONS_FILE" ]; then
-        echo "GNOME extensions list found. Please visit https://extensions.gnome.org/ and manually install the extensions listed below:"
-        cat "$EXTENSIONS_FILE"
-    else
-        echo "GNOME extensions list not found, skipping."
-    fi
+if prompt_user "Do you want to restore GNOME extensions?"; then
+    install_gnome_extensions
 else
     echo "Skipping GNOME extensions installation."
 fi
+
 
 # Step 4: Restore Fonts
 if prompt_user "Do you want to restore fonts?"; then
