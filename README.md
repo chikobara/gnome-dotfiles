@@ -28,7 +28,7 @@ cd gnome-dotfiles
 Dotfiles are configuration files that define how programs like your shell and editors behave. You can restore the dotfiles to your home directory:
 
 ```bash
-cp -r dotfiles/. ~/
+cp -rf * ~/
 #This will copy files like .bashrc, .zshrc, .vimrc to your home directory. You may want to review the files to make sure the configurations match your preferences.
 ```
 
