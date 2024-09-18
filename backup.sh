@@ -50,7 +50,7 @@ copy_item "$HOME/.themes" "$script_dir/"
 # Step 4: Backup Fonts
 echo "Backing up fonts..."
 # Backup user-specific fonts
-copy_item "$HOME/.local/share/fonts" "$script_dir/"
+copy_item "$HOME/.local/share/fonts" "$script_dir/.local/share/"
 copy_item "$HOME/.fonts" "$script_dir/"
 
 
