@@ -73,17 +73,6 @@ else
     echo "Skipping GNOME extensions installation."
 fi
 
-# Step 3: Restore GNOME Themes and Icons
-if prompt_user "Do you want to restore GNOME themes and icons?"; then
-    echo "Restoring GNOME themes and icons..."
-    mkdir -p $HOME/.themes
-    safe_copy "$script_dir/.themes" "$HOME/.themes"
-
-    echo "Themes and icons restored."
-else
-    echo "Skipping themes and icons restore."
-fi
-
 # Step 4: Restore Fonts
 if prompt_user "Do you want to restore fonts?"; then
     echo "Restoring fonts..."

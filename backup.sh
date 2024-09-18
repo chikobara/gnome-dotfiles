@@ -42,10 +42,6 @@ copy_item "$HOME/.p10k.zsh" "$script_dir/"
 echo "Backing up GNOME extensions..."
 gnome-extensions list > "$script_dir/gnome_extensions_list.txt"
 
-# Step 3: Backup GNOME Themes and Icons
-echo "Backing up themes and icons..."
-# Backup user-specific themes and icons
-copy_item "$HOME/.themes" "$script_dir/"
 
 # Step 4: Backup Fonts
 echo "Backing up fonts..."

@@ -66,18 +66,14 @@ Alternatively, use the gnome-extensions CLI to install extensions (if supported 
 gnome-extensions install [OPTION…] EXTENSION_BUNDLE
 ```
 
-### 4. Restore Theme
+### 4. Theme
 
 I use custom themes and icons for GTK, GNOME Shell, and application icons. To restore them:
 
-Copy the themes to your local theme directory:
-
-```bash
-cp -r .themes/ ~/.themes
-```
+#### GTK theme 
+Available in [Tokyonight-GTK-Theme](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme)
 
 #### Icons
-
 Available in [WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
 
 #### Cursor
