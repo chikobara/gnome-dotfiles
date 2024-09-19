@@ -1,5 +1,5 @@
 [com/github/FontManager/FontManager]
-browse-pane-position=38.666666666666664
+browse-pane-position=38.631578947368425
 browse-preview-visible=true
 is-maximized=false
 mode='browse'
@@ -900,7 +900,7 @@ toolbar-style='both-horiz'
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['firefox', 'org-gnome-console', 'spotify', 'org-telegram-desktop', 'org-gnome-tweaks', 'vmware-workstation', 'org-gnome-nautilus', 'steam', 'google-chrome', 'code', 'ryujinx', 'gnome-power-panel', 'net-lutris-lutris', 'discord', 'windscribe', 'heroic', 'codeblocks', 'com-github-unrud-videodownloader', 'org-gnome-lollypop', 'org-gnome-software', 'io-missioncenter-missioncenter', 'org-gnome-shell-extensions', 'jetbrains-toolbox', 'jetbrains-pycharm-ce-85bf098b-7a1e-411b-bfec-cb9222c4f4ab', 'bauh', 'org-gnome-terminal-preferences', 'org-gnome-terminal', 'moosync', 'com-github-dynobo-normcap', 'spotube', 'jetbrains-clion-dc7b56dc-add3-475d-8f47-020d3719a448', 'org-ryujinx-ryujinx', 'virt-manager', 'org-qbittorrent-qbittorrent', 'cxmenu-cxoffice-0-29ra4ke-crossover', 'org-bleachbit-bleachbit', 'net-nokyan-resources', 'vivaldi-stable', 'org-gnome-settings', 'ulauncher', 'org-gnome-shotwell-viewer', 'org-gnome-extensions', 'io-github-shiftey-desktop', 'anydesk', 'org-gnome-baobab', 'rog-control-center', 'com-dec05eba-gpu-screen-recorder', 'nemo', 'vmware-netcfg', 'org-gnome-fileroller', 'org-gnome-gthumb', 'vlc', 'org-pulseaudio-pavucontrol', 'xdg-desktop-portal-gnome', 'org-gnome-clocks', 'org-gnome-calculator', 'org-gnome-texteditor', 'bubblemail', 'io-github-nate-xyz-paleta', 'org-gnome-eog', 'io-github-foldex-adwsteamgtk', 'org-gnome-evince', 'kitty', 'org-shotcut-shotcut', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-evolution-alarm-notify', 'com-leinardi-gwe', 'gpu-screen-recorder-gtk', 'libreoffice-calc', 'vmware-player', 'floorp', 'notion', 'chrome-lfghmcocdkbpckchfplphlellgkaenej-default', 'wps-office-wps', 'timeshift-gtk', 'org-gnome-shell-extensions-gsconnect-preferences', 'aw-qt', 'anki', 'blueman-manager', 'io-element-element', 'org-gnome-systemmonitor', 'xdg-desktop-portal-gtk', 'code-url-handler', 'com-github-wwmm-easyeffects', 'org-gnome-builder', 'fr-handbrake-ghb', 'chrome-lflnlpcnemekeibfmlagdmkiagloecff-default', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'com-saivert-pwvucontrol', 'mpv', 'brave-browser', 'torbrowser', 'brave-pbgcnkaijiijkjbklfacfldkelmjfaem-default', 'dev-zed-zed', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'brave-mjoklplbddabcmpepnokjaffbmgbkkgg-default', 'rare', 'vesktop']
+application-children=['firefox', 'org-gnome-console', 'spotify', 'org-telegram-desktop', 'org-gnome-tweaks', 'vmware-workstation', 'org-gnome-nautilus', 'steam', 'google-chrome', 'code', 'ryujinx', 'gnome-power-panel', 'net-lutris-lutris', 'discord', 'windscribe', 'heroic', 'codeblocks', 'com-github-unrud-videodownloader', 'org-gnome-lollypop', 'org-gnome-software', 'io-missioncenter-missioncenter', 'org-gnome-shell-extensions', 'jetbrains-toolbox', 'jetbrains-pycharm-ce-85bf098b-7a1e-411b-bfec-cb9222c4f4ab', 'bauh', 'org-gnome-terminal-preferences', 'org-gnome-terminal', 'moosync', 'com-github-dynobo-normcap', 'spotube', 'jetbrains-clion-dc7b56dc-add3-475d-8f47-020d3719a448', 'org-ryujinx-ryujinx', 'virt-manager', 'org-qbittorrent-qbittorrent', 'cxmenu-cxoffice-0-29ra4ke-crossover', 'org-bleachbit-bleachbit', 'net-nokyan-resources', 'vivaldi-stable', 'org-gnome-settings', 'ulauncher', 'org-gnome-shotwell-viewer', 'org-gnome-extensions', 'io-github-shiftey-desktop', 'anydesk', 'org-gnome-baobab', 'rog-control-center', 'com-dec05eba-gpu-screen-recorder', 'nemo', 'vmware-netcfg', 'org-gnome-fileroller', 'org-gnome-gthumb', 'vlc', 'org-pulseaudio-pavucontrol', 'xdg-desktop-portal-gnome', 'org-gnome-clocks', 'org-gnome-calculator', 'org-gnome-texteditor', 'bubblemail', 'io-github-nate-xyz-paleta', 'org-gnome-eog', 'io-github-foldex-adwsteamgtk', 'org-gnome-evince', 'kitty', 'org-shotcut-shotcut', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-evolution-alarm-notify', 'com-leinardi-gwe', 'gpu-screen-recorder-gtk', 'libreoffice-calc', 'vmware-player', 'floorp', 'notion', 'chrome-lfghmcocdkbpckchfplphlellgkaenej-default', 'wps-office-wps', 'timeshift-gtk', 'org-gnome-shell-extensions-gsconnect-preferences', 'aw-qt', 'anki', 'blueman-manager', 'io-element-element', 'org-gnome-systemmonitor', 'xdg-desktop-portal-gtk', 'code-url-handler', 'com-github-wwmm-easyeffects', 'org-gnome-builder', 'fr-handbrake-ghb', 'chrome-lflnlpcnemekeibfmlagdmkiagloecff-default', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'com-saivert-pwvucontrol', 'mpv', 'brave-browser', 'torbrowser', 'brave-pbgcnkaijiijkjbklfacfldkelmjfaem-default', 'dev-zed-zed', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'brave-mjoklplbddabcmpepnokjaffbmgbkkgg-default', 'rare', 'vesktop', 'zen-alpha']
 show-banners=true
 show-in-lock-screen=true
 
@@ -1197,6 +1197,9 @@ application-id='xdg-desktop-portal-gnome.desktop'
 
 [org/gnome/desktop/notifications/application/xdg-desktop-portal-gtk]
 application-id='xdg-desktop-portal-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/zen-alpha]
+application-id='zen-alpha.desktop'
 
 [org/gnome/desktop/peripherals/mouse]
 accel-profile='flat'
@@ -1609,7 +1612,7 @@ disable-user-extensions=false
 disabled-extensions=['arcmenu@arcmenu.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'burn-my-windows@schneegans.github.com', 'lockkeys@vaina.lt', 'bluetooth-quick-connect@bjarosze.gmail.com', 'space-bar@luchrioh', 'worksets@blipk.xyz', 'GPU_profile_selector@lorenzo9904.gmail.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'fildemGMenu@gonza.com', 'bubblemail@razer.framagit.org', 'tilingshell@ferrarodomenico.com', 'rounded-window-corners@yilozt', 'tiling-assistant@leleat-on-github', 'compiz-alike-magic-lamp-effect@hermes83.github.com', 'kimpanel@kde.org', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'dash2dock-lite@icedman.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'x11gestures@joseexposito.github.io', 'dash-to-panel@jderose9.github.com', 'gnome-ui-tune@itstime.tech']
 enabled-extensions=['Rounded_Corners@lennart-k', 'CoverflowAltTab@palatis.blogspot.com', 'eepresetselector@ulville.github.io', 'simplenetspeed@biji.extension', 'quick-settings-audio-panel@rayzeq.github.io', 'netspeed@alynx.one', 'supergfxctl-gex@asus-linux.org', 'yakuake-extension@kde.org', 'advanced-alt-tab@G-dH.github.com', 'no-overview@fthx', 'runcat@kolesnikov.se', 'test', 'power-profile-indicator@laux.wtf', 'PrivacyMenu@stuarthayhurst', 'monitor@astraext.github.io', 'quick-settings-tweaks@qwreey', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'mediacontrols@cliffniff.github.com', 'hibernate-status@dromi', 'gsconnect@andyholmes.github.io', 'gpu-switcher-supergfxctl@chikobara.github.io', 'freq-boost-switch@metal03326', 'day-progress@arcaege.github.io', 'caffeine@patapon.info', 'dock-reloaded@selfmade.pl', 'dash-to-dock-workaround@popov895.ukr.net', 'waylandorx11@injcristianrojas.github.com', 'clipboard-indicator@tudmotu.com', 'clipboard-history@alexsaveau.dev', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'quick-settings-resolution-and-refresh-rate@rukins.github.io', 'blur-my-shell@aunetx', 'network-stats@gnome.noroadsleft.xyz', 'emoji-copy@felipeftn', 'dock-from-dash@fthx', 'netspeedsimplified@prateekmedia.extension', 'freon@UshakovVasilii_Github.yahoo.com', 'vkeybind@00000vish', 'display-adjustment@w8jcik.gitlab.com', 'dynamic-panel@velhlkj.com', 'trayIconsReloaded@selfmade.pl', 'just-perfection-desktop@just-perfection', 'rounded-window-corners@fxgn', 'openbar@neuromorph', 'search-light@icedman.github.com', 'dash-to-dock@micxgx.gmail.com']
 favorite-apps=['kitty.desktop', 'brave-browser.desktop', 'org.gnome.TextEditor.desktop', 'io.missioncenter.MissionCenter.desktop', 'rog-control-center.desktop', 'proton-pass.desktop', 'proton-mail.desktop', 'nemo.desktop', 'notion.desktop', 'notion-calendar-electron.desktop', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'org.telegram.desktop.desktop', 'brave-pbgcnkaijiijkjbklfacfldkelmjfaem-Default.desktop', 'windscribe.desktop', 'code.desktop', 'brave-mjoklplbddabcmpepnokjaffbmgbkkgg-Default.desktop', 'io.github.shiftey.Desktop.desktop', 'vesktop.desktop', 'spotify.desktop', 'timeshift-gtk.desktop', 'noisetorch.desktop', 'com.saivert.pwvucontrol.desktop', 'com.github.wwmm.easyeffects.desktop', 'com.dec05eba.gpu_screen_recorder.desktop', 'zen-alpha.desktop']
-last-selected-power-profile='power-saver'
+last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='46.1'
 
 [org/gnome/shell/extensions/advanced-alt-tab-window-switcher]
@@ -1754,7 +1757,6 @@ indicator-position=0
 indicator-position-index=0
 indicator-position-max=3
 restore-state=false
-toggle-state=false
 
 [org/gnome/shell/extensions/clipboard-history]
 private-mode=false
@@ -1960,7 +1962,7 @@ update-time=1
 use-gpu-nvidia=false
 
 [org/gnome/shell/extensions/freq-boost-switch]
-boost=false
+boost=true
 clean=true
 epb-off=15
 epb-on=0
@@ -2702,7 +2704,7 @@ sort-column='modified'
 sort-directories-first=true
 sort-order='descending'
 type-format='category'
-window-position=(102, 102)
+window-position=(26, 23)
 window-size=(1028, 441)
 
 [org/mate/caja/window-state]
