@@ -37,6 +37,8 @@ copy_item "$HOME/.fastfetch_conf.jsonc" "$script_dir/"
 copy_item "$HOME/.oh-my-zsh" "$script_dir/"
 copy_item "$HOME/.p10k.zsh" "$script_dir/"
 
+echo "Backing up yazi configs..."
+copy_item "$HOME/.config/yazi" "$script_dir/.config/"
 
 # Step 2: Backup GNOME Extensions
 echo "Backing up GNOME extensions..."
@@ -53,5 +55,6 @@ copy_item "$HOME/.fonts" "$script_dir/"
 # Step 5: Backup GNOME Tweaks Settings
 echo "Backing up GNOME Tweaks settings..."
 dconf dump / > "$script_dir/gnome_tweaks_settings_backup.dconf"
+
 
 echo "Backup complete! Files are saved in $script_dir"

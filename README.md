@@ -41,6 +41,7 @@ oh my zsh
 nvchad
 kitty
 fastfetch
+yazi
 ```
 
 or just copy and paste :)
