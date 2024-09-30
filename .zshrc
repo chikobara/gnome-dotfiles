@@ -137,6 +137,7 @@ alias igpu="supergfxctl -m Integrated && gnome-session-quit --logout"
 alias ff="fastfetch -c ~/.fastfetch_conf.jsonc"
 alias nf="neofetch --disable gpu wm shell packages terminal wm_theme --cpu_speed off --cpu_cores off --distro_shorthand on --gtk2 off --gtk3 off --bold on --color_blocks off --colors 4 4 4 4 --ascii_distro arch_small --ascii_colors 4 7"
 alias cls="clear && exec zsh"
+alias y=yazi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zshrc.d/auto-Hypr.sh
