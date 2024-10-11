@@ -6,7 +6,7 @@ window-is-maximized=true
 window-width=540
 
 [com/github/FontManager/FontManager]
-browse-pane-position=38.631578947368425
+browse-pane-position=38.522012578616355
 browse-preview-visible=true
 is-maximized=false
 mode='browse'
@@ -31,6 +31,7 @@ window-x=79
 window-y=65
 
 [com/github/wwmm/easyeffects]
+bypass=false
 use-dark-theme=true
 window-fullscreen=false
 window-height=466
@@ -461,7 +462,7 @@ show-ipsets=true
 [org/gnome/Console]
 custom-font='SpaceMono Nerd Font 11'
 font-scale=1.0
-last-window-maximised=true
+last-window-maximised=false
 last-window-size=(726, 473)
 theme='night'
 use-system-font=false
@@ -670,8 +671,8 @@ source-currency=''
 source-units='degree'
 target-currency=''
 target-units='radian'
-window-maximized=true
-window-size=(360, 500)
+window-maximized=false
+window-size=(360, 502)
 word-size=64
 
 [org/gnome/calendar]
@@ -690,7 +691,7 @@ size=(360, 294)
 
 [org/gnome/control-center]
 last-panel='wifi'
-window-state=(967, 739, true)
+window-state=(967, 734, true)
 
 [org/gnome/desktop/a11y]
 always-show-universal-access-status=false
@@ -698,6 +699,9 @@ always-show-universal-access-status=false
 [org/gnome/desktop/a11y/applications]
 screen-keyboard-enabled=false
 screen-reader-enabled=false
+
+[org/gnome/desktop/a11y/keyboard]
+togglekeys-enable=false
 
 [org/gnome/desktop/a11y/mouse]
 dwell-click-enabled=false
@@ -898,10 +902,10 @@ document-font-name='SF Arabic 10 @opsz=17'
 enable-animations=true
 font-antialiasing='rgba'
 font-hinting='full'
-font-name='SF Arabic 11 @opsz=17'
+font-name='Segoe UI Variable 11'
 font-rgba-order='rgb'
 gtk-theme='Tokyonight-Purple-Dark-Compact-Storm'
-icon-theme='WhiteSur-purple'
+icon-theme='WhiteSur-dark'
 monospace-font-name='Cascadia Mono NF 9'
 show-battery-percentage=false
 text-scaling-factor=1.0
@@ -1276,7 +1280,9 @@ workspace-names=@as []
 active-plugins=['statusbar-date', 'reload', 'fullscreen']
 
 [org/gnome/eog/ui]
-sidebar=false
+image-gallery=false
+sidebar=true
+statusbar=true
 
 [org/gnome/eog/view]
 trans-color='rgb(255,255,255)'
@@ -1286,16 +1292,16 @@ use-background-color=false
 [org/gnome/evince/default]
 continuous=true
 dual-page=false
-dual-page-odd-left=false
+dual-page-odd-left=true
 enable-spellchecking=true
 fullscreen=false
 inverted-colors=false
 show-sidebar=false
 sidebar-page='thumbnails'
 sidebar-size=140
-sizing-mode='fit-width'
-window-ratio=(3.1376451077943615, 1.1481481481481481)
-zoom=0.74430911722203086
+sizing-mode='automatic'
+window-ratio=(2.2805017103762828, 1.1472821339783648)
+zoom=0.63690003972619458
 
 [org/gnome/evolution-data-server]
 migrated=true
@@ -1306,7 +1312,7 @@ notify-window-paned-position=94
 notify-window-width=617
 notify-window-x=676
 notify-window-y=251
-reminders-past=['0b2f2a79364ac15d7371103ae22e3ad047fb4598\nf604f65a17cd59c59f2e03e96d1bfcd1a7df5b61\t20240923T050000Z\n1727065800\n1727067600\n1727069400\nBEGIN:VEVENT\r\nDTSTART:20240923T050000Z\r\nDTEND:20240923T053000Z\r\nRRULE:FREQ=WEEKLY;UNTIL=20240923T235959Z;BYDAY=MO,TU,WE,TH,FR;WKST=SU\r\nDTSTAMP:20240913T104846Z\r\nUID:1980i6hn2d6rnbnvk99o69se37@google.com\r\nCREATED:20240907T010159Z\r\nDESCRIPTION:Course: Machine Learning with Python\\nhttps:\r\n //www.coursera.org/learn/machine-learning-with-python/home/welcome\r\nLAST-MODIFIED:20240913T104846Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Learning time - Machine Learning with Python\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63861907726\r\nRECURRENCE-ID:20240923T050000Z\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:f604f65a17cd59c59f2e03e96d1bfcd1a7df5b61\r\nEND:VALARM\r\nEND:VEVENT\r\n', '5aa7eb764cf3829c0f3e4fbaa119515155af8232\nf725e23357b8a85f8d906e546a858b63d327d818\t20240922T120000Z\n1727006100\n1727006400\n1727013600\nBEGIN:VEVENT\r\nDTSTART:20240922T120000Z\r\nDTEND:20240922T140000Z\r\nDTSTAMP:20240420T104520Z\r\nUID:65af54e7f4b46e108319c1fd@google.com\r\nCREATED:20240420T104520Z\r\nDESCRIPTION:Follow all the action on F1 TV and F1.com. \\n\\nUnlock the \r\n inside world of F1 by signing up to F1 Unlocked at \r\n F1.com/F1Unlocked\\n\\nFollow on the go with F1 TV\\nhttps:\r\n //cal.f1.com/f/pcwnb/2nJS9\\n\\nVisit the Race Hub\\nhttps:\r\n //cal.f1.com/f/pcwnp/2nJS9\\n\\nFree sign up to F1 Unlocked\\nhttps:\r\n //cal.f1.com/f/pcwnz/2nJS9\\n\\nDownload the Official F1 Race Programme \r\n App\\nhttps://cal.f1.com/f/qzp4l/2nJS9\\n\\nWear your favourite teams \r\n colours with F1 store\\nhttps://cal.f1.com/f/pcwnZ/2nJS9\\n\\nChoose where \r\n to watch a race with F1 Tickets\\nhttps:\r\n //cal.f1.com/f/pcwpm/2nJS9\\n\\nFollow us on Facebook\\nhttps:\r\n //cal.f1.com/f/pcwpv/2nJS9\\n\\nFollow us on X\\nhttps:\r\n //cal.f1.com/f/pcwpG/2nJS9\\n\\nFollow us on Instagram\\nhttps:\r\n //cal.f1.com/f/pcwpQ/2nJS9\\n\\nFollow us on TikTok\\nhttps:\r\n //cal.f1.com/f/pcwq2/2nJS9\\n\\nManage my ECAL\\nhttps:\r\n //cal.f1.com/f/pcwqn/2nJS9\\n\\n\r\nLAST-MODIFIED:20240420T104520Z\r\nLOCATION:Singapore\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:🏁 FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2024 - \r\n Race\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63849293120\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT5M\r\nX-EVOLUTION-ALARM-UID:f725e23357b8a85f8d906e546a858b63d327d818\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:5eed83da23889ac04c42a10f47f58a7ed66f04bd\r\nEND:VALARM\r\nEND:VEVENT\r\n', '5aa7eb764cf3829c0f3e4fbaa119515155af8232\n5eed83da23889ac04c42a10f47f58a7ed66f04bd\t20240922T120000Z\n1727004600\n1727006400\n1727013600\nBEGIN:VEVENT\r\nDTSTART:20240922T120000Z\r\nDTEND:20240922T140000Z\r\nDTSTAMP:20240420T104520Z\r\nUID:65af54e7f4b46e108319c1fd@google.com\r\nCREATED:20240420T104520Z\r\nDESCRIPTION:Follow all the action on F1 TV and F1.com. \\n\\nUnlock the \r\n inside world of F1 by signing up to F1 Unlocked at \r\n F1.com/F1Unlocked\\n\\nFollow on the go with F1 TV\\nhttps:\r\n //cal.f1.com/f/pcwnb/2nJS9\\n\\nVisit the Race Hub\\nhttps:\r\n //cal.f1.com/f/pcwnp/2nJS9\\n\\nFree sign up to F1 Unlocked\\nhttps:\r\n //cal.f1.com/f/pcwnz/2nJS9\\n\\nDownload the Official F1 Race Programme \r\n App\\nhttps://cal.f1.com/f/qzp4l/2nJS9\\n\\nWear your favourite teams \r\n colours with F1 store\\nhttps://cal.f1.com/f/pcwnZ/2nJS9\\n\\nChoose where \r\n to watch a race with F1 Tickets\\nhttps:\r\n //cal.f1.com/f/pcwpm/2nJS9\\n\\nFollow us on Facebook\\nhttps:\r\n //cal.f1.com/f/pcwpv/2nJS9\\n\\nFollow us on X\\nhttps:\r\n //cal.f1.com/f/pcwpG/2nJS9\\n\\nFollow us on Instagram\\nhttps:\r\n //cal.f1.com/f/pcwpQ/2nJS9\\n\\nFollow us on TikTok\\nhttps:\r\n //cal.f1.com/f/pcwq2/2nJS9\\n\\nManage my ECAL\\nhttps:\r\n //cal.f1.com/f/pcwqn/2nJS9\\n\\n\r\nLAST-MODIFIED:20240420T104520Z\r\nLOCATION:Singapore\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:🏁 FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2024 - \r\n Race\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63849293120\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT5M\r\nX-EVOLUTION-ALARM-UID:f725e23357b8a85f8d906e546a858b63d327d818\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:5eed83da23889ac04c42a10f47f58a7ed66f04bd\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+reminders-past=@as []
 
 [org/gnome/file-roller/dialogs/extract]
 height=800
@@ -1502,12 +1508,16 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(1464, 717)
 initial-size-file-chooser=(890, 550)
-maximized=true
+maximized=false
 
 [org/gnome/nm-applet]
 disable-connected-notifications=true
 
 [org/gnome/nm-applet/eap/11fea2b7-f74b-3a15-8c86-b323b9c6dde9]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/18d43dc0-1838-4099-bb0b-8841dce36717]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
@@ -1546,7 +1556,7 @@ last-folder-path='/home/chiko/Pictures'
 last-folder-path='/home/chiko/Documents'
 
 [org/gnome/portal/filechooser/heroic]
-last-folder-path='/home/chiko/Games/Heroic/Prefixes/default/Grand Theft Auto V'
+last-folder-path='/home/chiko/Games/Heroic/Prefixes/default/Grand Theft Auto V/drive_c/Program Files/Rockstar Games/Launcher'
 
 [org/gnome/portal/filechooser/io.element.Element]
 last-folder-path='/home/chiko/Link to W&P'
@@ -1630,12 +1640,12 @@ sleep-inactive-battery-type='suspend'
 [org/gnome/shell]
 app-picker-layout=[{'00b9320e-a2b6-47cf-911f-2d1263248624': <{'position': <0>}>, 'xreader.desktop': <{'position': <1>}>, 'org.gnome.Calculator.desktop': <{'position': <2>}>, 'org.gnome.Settings.desktop': <{'position': <3>}>, 'org.gnome.Nautilus.desktop': <{'position': <4>}>, 'efd4e46c-60b7-4b73-a23f-1b9a0249ebde': <{'position': <5>}>, 'b4701d81-bfd3-44ea-bd28-cc951601f18e': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'b62cb757-621a-419b-a9e2-d7bdcc000301': <{'position': <8>}>, 'd23cb034-19d6-46c6-964a-6e437d56ae26': <{'position': <9>}>, '49d3a297-bf86-4dde-af8b-a821eac54ef2': <{'position': <10>}>, 'firewall-config.desktop': <{'position': <11>}>, 'gparted.desktop': <{'position': <12>}>, 'nvidia-settings.desktop': <{'position': <13>}>, 'org.gnome.NetworkDisplays.desktop': <{'position': <14>}>, '892b51a9-6307-47f3-930e-e30ba90d324d': <{'position': <15>}>, 'onlyoffice-desktopeditors.desktop': <{'position': <16>}>, 'gnome-nettool.desktop': <{'position': <17>}>, 'com.github.donadigo.appeditor.desktop': <{'position': <18>}>, 'a238faa4-2c1a-44c7-b5a9-638cd63f6805': <{'position': <19>}>, 'wihotspot.desktop': <{'position': <20>}>, 'net.nokyan.Resources.desktop': <{'position': <21>}>, '435789aa-f1de-4c81-923f-a2dd02526ce3': <{'position': <22>}>}, {'325ad8bf-4f3d-4261-9020-5df48268a3b9': <{'position': <0>}>, 'fa4674c1-609f-40af-83fd-79f8834780ce': <{'position': <1>}>, 'edf32bae-a7b8-4787-9b56-1611cb924a22': <{'position': <2>}>, '28073c61-8775-47a3-826c-c8ef21e6973b': <{'position': <3>}>, 'org.bleachbit.BleachBit.desktop': <{'position': <4>}>, '03f5d710-6d99-45cf-93ca-a2d2f857a221': <{'position': <5>}>, '414110f2-1980-4669-97cb-b8a9a0ebc021': <{'position': <6>}>, '0069961c-91fa-44f0-8e96-2cdb6b074da3': <{'position': <7>}>, 'io.github.realmazharhussain.GdmSettings.desktop': <{'position': <8>}>, 'fluid.desktop': <{'position': <9>}>, 'org.upscayl.Upscayl.desktop': <{'position': <10>}>, '99cb11f0-a608-4bd3-8f59-a4ad7c0058b5': <{'position': <11>}>, '26e63dd7-2234-4213-8708-0dccf0eb33f4': <{'position': <12>}>, 'com.github.unrud.VideoDownloader.desktop': <{'position': <13>}>, 'io.element.Element.desktop': <{'position': <14>}>, 'f200d2c5-e1cb-479f-925d-48a014f01c45': <{'position': <15>}>, 'a6ef5098-3e23-41d9-8979-c4a1cef2ed9c': <{'position': <16>}>, 'riseup-vpn.desktop': <{'position': <17>}>, '5dafee7e-4855-411f-8a1e-5213d47e11e7': <{'position': <18>}>, 'com.github.ztefn.haguichi.desktop': <{'position': <19>}>, 'org.kde.kiten.desktop': <{'position': <20>}>, 'org.kde.ark.desktop': <{'position': <21>}>, 'grub-editor.desktop': <{'position': <22>}>, 'texmaker.desktop': <{'position': <23>}>}, {'electron32.desktop': <{'position': <0>}>, 'gammastep-indicator.desktop': <{'position': <1>}>, 'com.github.GradienceTeam.Gradience.desktop': <{'position': <2>}>, 'qt5ct.desktop': <{'position': <3>}>, 'com.github.FontManager.FontManager.desktop': <{'position': <4>}>, 'com.github.FontManager.FontViewer.desktop': <{'position': <5>}>, 'qt6ct.desktop': <{'position': <6>}>, 'xdvi.desktop': <{'position': <7>}>, 'jconsole-java17-openjdk.desktop': <{'position': <8>}>, 'jshell-java17-openjdk.desktop': <{'position': <9>}>, 'linguist-qt4.desktop': <{'position': <10>}>, 'qdbusviewer-qt4.desktop': <{'position': <11>}>, 'scrcpy.desktop': <{'position': <12>}>, 'scrcpy-console.desktop': <{'position': <13>}>, 'io.github.Foldex.AdwSteamGtk.desktop': <{'position': <14>}>, 'thunar-bulk-rename.desktop': <{'position': <15>}>, 'com.system76.CosmicStore.desktop': <{'position': <16>}>, 'com.system76.CosmicFiles.desktop': <{'position': <17>}>, 'com.system76.CosmicScreenshot.desktop': <{'position': <18>}>, 'com.system76.CosmicTerm.desktop': <{'position': <19>}>, 'com.system76.CosmicEdit.desktop': <{'position': <20>}>, 'thunar-settings.desktop': <{'position': <21>}>, 'geany.desktop': <{'position': <22>}>, 'affine.desktop': <{'position': <23>}>}, {'jgmenu.desktop': <{'position': <0>}>, 'waydroid.org.lineageos.jelly.desktop': <{'position': <1>}>, 'waydroid.com.android.calculator2.desktop': <{'position': <2>}>, 'waydroid.org.lineageos.etar.desktop': <{'position': <3>}>, 'waydroid.com.android.camera2.desktop': <{'position': <4>}>, 'waydroid.com.android.deskclock.desktop': <{'position': <5>}>, 'waydroid.com.android.contacts.desktop': <{'position': <6>}>, 'waydroid.com.android.documentsui.desktop': <{'position': <7>}>, 'waydroid.com.android.gallery3d.desktop': <{'position': <8>}>, 'waydroid.org.lineageos.eleven.desktop': <{'position': <9>}>, 'waydroid.org.lineageos.recorder.desktop': <{'position': <10>}>, 'waydroid.com.android.settings.desktop': <{'position': <11>}>, 'waydroid.org.fdroid.fdroid.desktop': <{'position': <12>}>, 'waydroid.com.android.inputmethod.latin.desktop': <{'position': <13>}>, 'waydroid.com.adultswim.videoapp.android.desktop': <{'position': <14>}>, 'picom.desktop': <{'position': <15>}>, 'redshift-gtk.desktop': <{'position': <16>}>, 'thunar-volman-settings.desktop': <{'position': <17>}>, 'rofi.desktop': <{'position': <18>}>, 'rofi-theme-selector.desktop': <{'position': <19>}>, 'thunar.desktop': <{'position': <20>}>, 'xcolor.desktop': <{'position': <21>}>, 'org.pwmt.zathura.desktop': <{'position': <22>}>}]
 command-history=['help', 'd', 'shutdown', 's', '2', 'ق', 'reboot', 'logout', 'r']
-disable-extension-version-validation=true
+disable-extension-version-validation=false
 disable-user-extensions=false
-disabled-extensions=['arcmenu@arcmenu.com', 'burn-my-windows@schneegans.github.com', 'lockkeys@vaina.lt', 'bluetooth-quick-connect@bjarosze.gmail.com', 'space-bar@luchrioh', 'worksets@blipk.xyz', 'GPU_profile_selector@lorenzo9904.gmail.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'bubblemail@razer.framagit.org', 'tilingshell@ferrarodomenico.com', 'rounded-window-corners@yilozt', 'compiz-alike-magic-lamp-effect@hermes83.github.com', 'kimpanel@kde.org', 'dash2dock-lite@icedman.github.com', 'x11gestures@joseexposito.github.io', 'dash-to-panel@jderose9.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com']
-enabled-extensions=['Rounded_Corners@lennart-k', 'CoverflowAltTab@palatis.blogspot.com', 'eepresetselector@ulville.github.io', 'simplenetspeed@biji.extension', 'quick-settings-audio-panel@rayzeq.github.io', 'netspeed@alynx.one', 'supergfxctl-gex@asus-linux.org', 'yakuake-extension@kde.org', 'advanced-alt-tab@G-dH.github.com', 'no-overview@fthx', 'runcat@kolesnikov.se', 'test', 'power-profile-indicator@laux.wtf', 'PrivacyMenu@stuarthayhurst', 'monitor@astraext.github.io', 'quick-settings-tweaks@qwreey', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'mediacontrols@cliffniff.github.com', 'hibernate-status@dromi', 'gsconnect@andyholmes.github.io', 'freq-boost-switch@metal03326', 'day-progress@arcaege.github.io', 'caffeine@patapon.info', 'dock-reloaded@selfmade.pl', 'dash-to-dock-workaround@popov895.ukr.net', 'waylandorx11@injcristianrojas.github.com', 'clipboard-indicator@tudmotu.com', 'clipboard-history@alexsaveau.dev', 'appindicatorsupport@rgcjonas.gmail.com', 'quick-settings-resolution-and-refresh-rate@rukins.github.io', 'network-stats@gnome.noroadsleft.xyz', 'emoji-copy@felipeftn', 'dock-from-dash@fthx', 'vkeybind@00000vish', 'display-adjustment@w8jcik.gitlab.com', 'dynamic-panel@velhlkj.com', 'trayIconsReloaded@selfmade.pl', 'search-light@icedman.github.com', 'tiling-assistant@leleat-on-github', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'rounded-window-corners@fxgn', 'dash-to-dock@micxgx.gmail.com', 'gpu-switcher-supergfxctl@chikobara.github.io', 'blur-my-shell@aunetx', 'gnome-ui-tune@itstime.tech', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'fildemGMenu@gonza.com', 'openbar@neuromorph', 'just-perfection-desktop@just-perfection', 'netspeedsimplified@prateekmedia.extension', 'freon@UshakovVasilii_Github.yahoo.com', 'top-bar-organizer@julian.gse.jsts.xyz']
-favorite-apps=['kitty.desktop', 'brave-browser.desktop', 'org.gnome.TextEditor.desktop', 'io.missioncenter.MissionCenter.desktop', 'rog-control-center.desktop', 'proton-pass.desktop', 'proton-mail.desktop', 'zen-alpha.desktop', 'nemo.desktop', 'notion.desktop', 'notion-calendar-electron.desktop', 'affine.desktop', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'org.telegram.desktop.desktop', 'brave-pbgcnkaijiijkjbklfacfldkelmjfaem-Default.desktop', 'windscribe.desktop', 'code.desktop', 'io.github.shiftey.Desktop.desktop', 'vesktop.desktop', 'spotify.desktop', 'timeshift-gtk.desktop', 'noisetorch.desktop', 'com.saivert.pwvucontrol.desktop', 'com.github.wwmm.easyeffects.desktop', 'com.dec05eba.gpu_screen_recorder.desktop']
-last-selected-power-profile='performance'
+disabled-extensions=['arcmenu@arcmenu.com', 'burn-my-windows@schneegans.github.com', 'lockkeys@vaina.lt', 'bluetooth-quick-connect@bjarosze.gmail.com', 'space-bar@luchrioh', 'worksets@blipk.xyz', 'GPU_profile_selector@lorenzo9904.gmail.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'bubblemail@razer.framagit.org', 'tilingshell@ferrarodomenico.com', 'rounded-window-corners@yilozt', 'compiz-alike-magic-lamp-effect@hermes83.github.com', 'kimpanel@kde.org', 'dash2dock-lite@icedman.github.com', 'dash-to-panel@jderose9.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'hibernate-status@dromi', 'gnome-ui-tune@itstime.tech', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'gsconnect@andyholmes.github.io', 'openbar@neuromorph', 'rounded-window-corners@fxgn']
+enabled-extensions=['Rounded_Corners@lennart-k', 'CoverflowAltTab@palatis.blogspot.com', 'eepresetselector@ulville.github.io', 'simplenetspeed@biji.extension', 'quick-settings-audio-panel@rayzeq.github.io', 'netspeed@alynx.one', 'supergfxctl-gex@asus-linux.org', 'yakuake-extension@kde.org', 'advanced-alt-tab@G-dH.github.com', 'no-overview@fthx', 'runcat@kolesnikov.se', 'test', 'power-profile-indicator@laux.wtf', 'PrivacyMenu@stuarthayhurst', 'monitor@astraext.github.io', 'quick-settings-tweaks@qwreey', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'mediacontrols@cliffniff.github.com', 'dock-reloaded@selfmade.pl', 'dash-to-dock-workaround@popov895.ukr.net', 'waylandorx11@injcristianrojas.github.com', 'clipboard-indicator@tudmotu.com', 'quick-settings-resolution-and-refresh-rate@rukins.github.io', 'network-stats@gnome.noroadsleft.xyz', 'emoji-copy@felipeftn', 'dock-from-dash@fthx', 'vkeybind@00000vish', 'display-adjustment@w8jcik.gitlab.com', 'dynamic-panel@velhlkj.com', 'trayIconsReloaded@selfmade.pl', 'search-light@icedman.github.com', 'tiling-assistant@leleat-on-github', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'fildemGMenu@gonza.com', 'netspeedsimplified@prateekmedia.extension', 'top-bar-organizer@julian.gse.jsts.xyz', 'just-perfection-desktop@just-perfection', 'appindicatorsupport@rgcjonas.gmail.com', 'dash-to-dock@micxgx.gmail.com', 'day-progress@arcaege.github.io', 'clipboard-history@alexsaveau.dev', 'caffeine@patapon.info', 'freon@UshakovVasilii_Github.yahoo.com', 'freq-boost-switch@metal03326', 'gpu-switcher-supergfxctl@chikobara.github.io', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'x11gestures@joseexposito.github.io', 'blur-my-shell@aunetx']
+favorite-apps=['kitty.desktop', 'brave-browser.desktop', 'org.gnome.TextEditor.desktop', 'io.missioncenter.MissionCenter.desktop', 'rog-control-center.desktop', 'proton-pass.desktop', 'zen-alpha.desktop', 'nemo.desktop', 'notion.desktop', 'notion-calendar-electron.desktop', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'org.telegram.desktop.desktop', 'windscribe.desktop', 'code.desktop', 'io.github.shiftey.Desktop.desktop', 'vesktop.desktop', 'spotify.desktop', 'timeshift-gtk.desktop', 'noisetorch.desktop', 'com.saivert.pwvucontrol.desktop', 'com.github.wwmm.easyeffects.desktop', 'com.dec05eba.gpu_screen_recorder.desktop']
+last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='46.1'
 
 [org/gnome/shell/app-switcher]
@@ -1787,7 +1797,6 @@ indicator-position=0
 indicator-position-index=0
 indicator-position-max=3
 restore-state=false
-toggle-state=false
 
 [org/gnome/shell/extensions/clipboard-history]
 private-mode=false
@@ -1805,7 +1814,7 @@ switcher-style='Coverflow'
 
 [org/gnome/shell/extensions/dash-to-dock]
 always-center-icons=true
-apply-custom-theme=true
+apply-custom-theme=false
 apply-glossy-effect=true
 background-color='rgb(145,95,70)'
 background-opacity=0.39000000000000001
@@ -1994,7 +2003,7 @@ update-time=1
 use-gpu-nvidia=false
 
 [org/gnome/shell/extensions/freq-boost-switch]
-boost=true
+boost=false
 clean=true
 epb-off=15
 epb-on=0
@@ -2147,7 +2156,7 @@ iconstoright=false
 isvertical=false
 lockmouseactions=false
 minwidth=3.0
-mode=1
+mode=3
 refreshtime=1.0
 restartextension=false
 shortenunits=true
@@ -2411,7 +2420,7 @@ radius-bottomleft=true
 radius-bottomright=true
 radius-topleft=true
 radius-topright=true
-reloadstyle=false
+reloadstyle=true
 removestyle=false
 sbar-gradient='none'
 set-fullscreen=true
@@ -2605,7 +2614,7 @@ show-indicator=false
 [org/gnome/shell/extensions/top-bar-organizer]
 center-box-order=['Media Controls', 'Day Progress']
 left-box-order=['activities', 'freonMenu', 'ShowNetSpeedButton']
-right-box-order=['appindicator-kstatusnotifieritem-Free Download Manager', 'appindicator-kstatusnotifieritem-chrome_status_icon_1', '/org/gnome/Shell/Extensions/GSConnect/Device/c130857e_119e_4d39_b49e_81c013a0a7a7', 'tiling-assistant@leleat-on-github', 'appindicator-kstatusnotifieritem-TelegramDesktop', 'appindicator-kstatusnotifieritem-RiseupVPN', 'emoji-copy@felipeftn', 'Clipboard History Indicator', 'screenRecording', 'screenSharing', 'dwellClick', 'a11y', 'keyboard', 'quickSettings', 'dateMenu']
+right-box-order=['workspace-indicator', 'appindicator-kstatusnotifieritem-Windscribe2', 'appindicator-kstatusnotifieritem-vlc', 'appindicator-kstatusnotifieritem-Free Download Manager', 'appindicator-kstatusnotifieritem-chrome_status_icon_1', '/org/gnome/Shell/Extensions/GSConnect/Device/c130857e_119e_4d39_b49e_81c013a0a7a7', 'tiling-assistant@leleat-on-github', 'appindicator-kstatusnotifieritem-TelegramDesktop', 'appindicator-kstatusnotifieritem-RiseupVPN', 'emoji-copy@felipeftn', 'Clipboard History Indicator', 'screenRecording', 'screenSharing', 'dwellClick', 'a11y', 'keyboard', 'quickSettings', 'dateMenu']
 
 [org/gnome/shell/extensions/trayIconsReloaded]
 applications='[]'
@@ -2655,6 +2664,11 @@ photo-file-format='JFIF'
 quality='MAXIMUM'
 scale=1024
 
+[org/gnome/shotwell/preferences/files]
+auto-import=false
+commit-metadata=true
+directory-pattern='%Y/%m/%d'
+
 [org/gnome/shotwell/preferences/ui]
 display-basic-properties=true
 display-extended-properties=false
@@ -2670,19 +2684,20 @@ library-photos-sort-by=2
 pin-toolbar-state=false
 show-welcome-dialog=false
 sidebar-position=180
+transparent-background-type='checkered'
 
 [org/gnome/shotwell/preferences/window]
-direct-height=554
+direct-height=491
 direct-maximize=false
-direct-width=420
-library-height=768
+direct-width=928
+library-height=1006
 library-maximize=false
-library-width=1024
+library-width=928
 
 [org/gnome/software]
-check-timestamp=int64 1714316772
+check-timestamp=int64 1728450419
 first-run=false
-flatpak-purge-timestamp=int64 1714459041
+flatpak-purge-timestamp=int64 1728565995
 
 [org/gnome/system/location]
 enabled=false
@@ -2700,7 +2715,7 @@ cursor-shape='block'
 custom-command='zsh'
 default-size-columns=95
 default-size-rows=24
-font='Cascadia Code 11'
+font='SpaceMono Nerd Font 11'
 foreground-color='rgb(230,230,230)'
 highlight-colors-set=false
 palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(168,144,228)', 'rgb(162,115,76)', 'rgb(168,144,228)', 'rgb(167,144,228)', 'rgb(116,100,158)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
@@ -2733,8 +2748,8 @@ view-type='grid'
 window-size=(1560, 885)
 
 [org/gtk/settings/color-chooser]
-custom-colors=[(0.54509803921568623, 0.36078431372549019, 0.96470588235294119, 1.0), (0.54509803921568623, 0.36078431372549014, 0.96470588235294119, 1.0), (0.42352941176470588, 0.27843137254901962, 1.0, 1.0), (0.43790460157126826, 0.18224444444444446, 0.92666666666666675, 1.0), (0.34509803921568627, 0.098039215686274508, 0.85490196078431369, 1.0), (0.11213333333333336, 0.15650235690235698, 0.38666666666666671, 1.0), (0.87000000000000011, 0.87000000000000011, 0.87000000000000011, 1.0), (0.60784313725490191, 0.34901960784313724, 0.71372549019607845, 1.0)]
-selected-color=(true, 0.46666666666666667, 0.46274509803921571, 0.4823529411764706, 1.0)
+custom-colors=[(0.96078431372549022, 0.76078431372549016, 0.90588235294117647, 1.0), (0.14117647058823529, 0.14117647058823529, 0.2196078431372549, 1.0), (0.7294117647058822, 0.73333333333333317, 0.94509803921568625, 1.0), (0.93333333333333335, 0.74509803921568629, 0.74509803921568629, 1.0), (0.74901960784313726, 0.38039215686274513, 0.41568627450980411, 1.0), (0.16078431372549021, 0.17254901960784313, 0.23529411764705882, 1.0), (0.72941176470588232, 0.73333333333333328, 0.94509803921568625, 1.0), (0.95686274509803926, 0.72156862745098038, 0.89411764705882357, 1.0)]
+selected-color=(true, 0.96078431372549022, 0.76078431372549016, 0.90588235294117647, 1.0)
 
 [org/gtk/settings/file-chooser]
 clock-format='24h'
@@ -2743,13 +2758,13 @@ location-mode='path-bar'
 show-hidden=false
 show-size-column=true
 show-type-column=true
-sidebar-width=193
-sort-column='modified'
+sidebar-width=174
+sort-column='name'
 sort-directories-first=true
-sort-order='descending'
+sort-order='ascending'
 type-format='category'
-window-position=(0, 0)
-window-size=(890, 920)
+window-position=(640, 37)
+window-size=(639, 966)
 
 [org/mate/caja/window-state]
 maximized=true
@@ -2791,11 +2806,11 @@ search-visible-columns=['name', 'date_modified', 'size', 'where']
 
 [org/nemo/window-state]
 bookmarks-expanded=true
-geometry='1515x758+102+102'
+geometry='1566x777+102+102'
 maximized=true
 side-pane-view='places'
 sidebar-bookmark-breakpoint=5
-sidebar-width=191
+sidebar-width=140
 start-with-sidebar=true
 
 [org/virt-manager/virt-manager]

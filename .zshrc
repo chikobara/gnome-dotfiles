@@ -14,7 +14,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-
+export PATH=$HOME/.config/rofi/scripts:$PATH
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -139,6 +139,15 @@ alias nf="neofetch --disable gpu wm shell packages terminal wm_theme --cpu_speed
 alias cls="clear && exec zsh"
 alias y=yazi
 alias lg=lazygit
+alias exiftool="perl ~/Downloads/Image-ExifTool-12.97/exiftool"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zshrc.d/auto-Hypr.sh
+
+# bun completions
+[ -s "/home/chiko/.bun/_bun" ] && source "/home/chiko/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
