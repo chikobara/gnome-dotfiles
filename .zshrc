@@ -136,15 +136,10 @@ alias dgpu="supergfxctl -m Hybrid && gnome-session-quit --logout"
 alias igpu="supergfxctl -m Integrated && gnome-session-quit --logout"
 alias ff="fastfetch -c ~/.fastfetch_conf.jsonc"
 alias nf="neofetch --disable gpu wm shell packages terminal wm_theme --cpu_speed off --cpu_cores off --distro_shorthand on --gtk2 off --gtk3 off --bold on --color_blocks off --colors 4 4 4 4 --ascii_distro arch_small --ascii_colors 4 7"
-alias cls="clear && fastfetch -c ~/.fastfetch_conf.jsonc"
+alias cls="clear && exec zsh"
 alias y=yazi
 alias lg=lazygit
 alias exiftool="perl ~/Downloads/Image-ExifTool-12.97/exiftool"
-alias cpu="cpufreqctl turbo get"
-alias cpuoff="cpufreqctl turbo get && sudo cpufreqctl turbo set off && cpufreqctl turbo get "
-alias yq="yay -Qi"
-alias q=exit
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /home/chiko/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zshrc.d/auto-Hypr.sh
@@ -156,7 +151,3 @@ source ~/.config/zshrc.d/auto-Hypr.sh
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 [ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
-. "/home/chiko/.deno/env"
-# Created by `pipx` on 2024-10-20 01:45:11
-export PATH="$PATH:/home/chiko/.local/bin"
-source /usr/share/nvm/init-nvm.sh
