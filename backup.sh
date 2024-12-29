@@ -27,6 +27,10 @@ echo
 echo "Backup Kitty config"
 copy_item "$HOME/.config/kitty" "$script_dir/.config/"
 
+echo 
+echo "Backup neovim"
+copy_item "$HOME/.config/nvim" "$script_dir/.config/"
+
 # Backup fastfetch conf
 echo
 echo "Backup fastfetch conf"
